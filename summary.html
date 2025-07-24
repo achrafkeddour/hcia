@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Guide</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: #f5f6fa;
+            color: #2d3436;
+            line-height: 1.6;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Headings */
+        h1 {
+            color: #2f3542;
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #0984e3;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #2d3436;
+            font-size: 1.8em;
+            margin-top: 30px;
+            border-left: 5px solid #0984e3;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #636e72;
+            font-size: 1.4em;
+            margin-top: 20px;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fb;
+            border-radius: 8px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Lists */
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            position: relative;
+        }
+
+        li:before {
+            content: "▹";
+            color: #0984e3;
+            position: absolute;
+            left: -20px;
+        }
+
+        /* Materials and Quiz */
+        .materials, .quiz {
+            font-style: italic;
+            color: #57606f;
+            margin: 10px 0;
+            font-size: 1em;
+        }
+
+        .materials:before {
+            content: "▤ ";
+            color: #00b894;
+        }
+
+        .quiz:before {
+            content: "✏ ";
+            color: #d63031;
+        }
+
+        /* HR Styling */
+        hr {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #dfe6e9, transparent);
+            margin: 20px 0;
+        }
+
+        /* Final Exam */
+        .section:last-child p {
+            font-weight: bold;
+            color: #2f3542;
+            font-size: 1.2em;
+            text-align: center;
+            padding: 10px;
+            background: #e4e9f0;
+            border-radius: 5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>◉ Learning Guide</h1>
+
+        <h2>Course Guide</h2>
+        <h3>Operation Guide for Learning Platform</h3>
+        <hr>
+
+        <div class="section">
+            <h2>1. Data Communication Network Basis pages  (1-31) </h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>1.1 Communication and Networks</li>
+                <li>1.2 Network Types and Topology Types</li>
+                <li>1.3 Network Engineering and Network Engineers</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Network Reference Model  (32-76) </h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>2.1 Applications and Data</li>
+                <li>2.2 Network Reference Model and Standard Protocols</li>
+                <li>2.3 Data Communication Process</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Huawei VRP  (77-123) </h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>3.1 VRP Overview</li>
+                <li>3.2 Command Line Basics</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Network Layer Protocols and IP Addressing (124-169) </h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>4.1 Network Layer Protocols</li>
+                <li>4.2 Introduction to IPv4 Addresses</li>
+                <li>4.3 Subnetting</li>
+                <li>4.4 ICMP</li>
+                <li>4.5 IPv4 Address Configuration and Basic Application</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>5. IP Routing Basics (170-221) </h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>5.1 Overview of IP Routing</li>
+                <li>5.2 Static Routing</li>
+                <li>5.3 Dynamic Routing</li>
+                <li>5.4 Advanced Routing Features</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>6. OSPF Basics (222-270)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>6.1 OSPF Overview</li>
+                <li>6.2 OSPF Working Mechanism</li>
+                <li>6.3 Typical OSPF Configuration</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Ethernet Switching Basics (271-313)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>7.1 Overview of Ethernet Protocols</li>
+                <li>7.2 Overview of Ethernet Frames</li>
+                <li>7.3 Overview of Ethernet Switches</li>
+                <li>7.4 Process of Data Communication Within a Network Segment</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>8. VLAN Principles and Configuration (314-363)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>8.1 What Is VLAN</li>
+                <li>8.2 VLAN Principles</li>
+                <li>8.3 VLAN Applications</li>
+                <li>8.4 VLAN Configuration Examples</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>9. STP Principles and Configuration (364-426)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>9.1 STP Overview</li>
+                <li>9.2 Basic Concepts and Working Mechanism of STP</li>
+                <li>9.3 Basic STP Configurations</li>
+                <li>9.4 Improvements Made in RSTP</li>
+                <li>9.5 STP Advancement</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Inter-VLAN Communication (427-455)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>10.1 Inter-VLAN Communication</li>
+                <li>10.2 Sub-interfaces</li>
+                <li>10.3 VLANIF Interfaces</li>
+                <li>10.4 Layer 3 Communication Process</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Eth-Trunk iStack and CSS (456-503)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>11.1 Network Reliability Requirements</li>
+                <li>11.2 Principle and Configuration of Link Aggregation</li>
+                <li>11.3 Overview of iStack and CSS</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>12. ACL Principles and Configuration (504-534)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>12.1 ACL Overview</li>
+                <li>12.2 Basic Concepts and Working Mechanism of ACLs</li>
+                <li>12.3 Basic Configurations and Applications of ACLs</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>13. AAA Principles and Configuration (535-556)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>13.1 AAA Overview</li>
+                <li>13.2 AAA Configuration</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>14. Network Address Translation (557-588)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>14.1 NAT Overview</li>
+                <li>14.2 Static NAT</li>
+                <li>14.3 Dynamic NAT</li>
+                <li>14.4 NAPT and Easy IP</li>
+                <li>14.5 NAT Server</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>15. Network Services and Applications (589-638)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>15.1 File Transfer</li>
+                <li>15.2 Telnet</li>
+                <li>15.3 DHCP</li>
+                <li>15.4 HTTP</li>
+                <li>15.5 DNS</li>
+                <li>15.6 NTP</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>16. WLAN Overview (639-721)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>16.1 WLAN Overview</li>
+                <li>16.2 Basic Concepts of WLAN</li>
+                <li>16.3 WLAN Fundamentals</li>
+                <li>16.4 WLAN Configuration Implementation</li>
+                <li>16.5 Next-Generation WLAN Solutions</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>17. WAN Technologies (722-777)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>17.1 Overview of Early WAN Technologies</li>
+                <li>17.2 PPP Implementation and Configuration</li>
+                <li>17.3 PPPoE Implementation and Configuration</li>
+                <li>17.4 Development of WAN Technologies</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>18. Network Management and OM (778-815)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>18.1 Basic Concepts</li>
+                <li>18.2 Traditional Network Management</li>
+                <li>18.3 Network Management Based on Huawei iMaster NCE</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>19. IPv6 Basics (816-856)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>19.1 IPv6 Overview</li>
+                <li>19.2 IPv6 Address Configuration</li>
+                <li>19.3 Typical IPv6 Configuration Examples</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>20. Introduction to SDN and NFV (857-908)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>20.1 SDN Overview</li>
+                <li>20.2 NFV Overview</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>21. Network Programmability and Automation (909-942)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>21.1 Network Programmability and Automation</li>
+                <li>21.2 Overview of Programming Language and Python</li>
+                <li>21.3 Cases</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>22. Typical Campus Network Architectures and Practices (943-984)</h2>
+            <h3>★ Introduction</h3>
+            <ul>
+                <li>22.1 Basic Concepts of Campus Networks</li>
+                <li>22.2 Typical Campus Network Construction Process</li>
+            </ul>
+            <p class="materials">▤ Materials</p>
+            <p class="quiz">✏ Quiz</p>
+        </div>
+
+        <div class="section">
+            <h2>✏ Final Exam</h2>
+            <p><strong>Final Exam</strong></p>
+        </div>
+    </div>
+</body>
+</html>
